@@ -1,0 +1,47 @@
+.container {
+    width: 99%;
+    margin: 0 auto;
+}
+
+button {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.rockImg {
+    width: 50%;
+    height: 100%;
+}
+
+.imgBox {
+    height: 130px;
+}
+
+.productBox {
+    width: 425px;
+    margin: 10px 0 0 10px;
+}
+
+button.btn.btn-primary {
+    margin-bottom: 12px;
+}
+
+p {
+    margin: 0 0 10px;
+    height: 50px;
+}
+
+.ng-invalid.ng-dirty {
+ border-color: #FA787E;
+}
+
+.ng-valid.ng-dirty {
+ border-color: #78FA89;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: lightgray;
+}

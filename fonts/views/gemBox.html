@@ -1,0 +1,18 @@
+<div ng-repeat="gem in model | orderBy: 'price'" class="col-md-3 col-xs-12 panel panel-default productBox">
+
+    <panel-header></panel-header>
+
+    <div class="panel-body">
+
+        <product-image></product-image>
+
+        <product-price></product-price>
+
+        <product-panels></product-panels>
+
+    </div>
+
+    <submit-button></submit-button>
+
+    <span class="col-xs-8">Quantity: {{ gem.quantity }}</span>
+</div>
