@@ -1,0 +1,2 @@
+﻿CREATE PROCEDURE sp_GetProducts AS 
+SELECT * FROM Product

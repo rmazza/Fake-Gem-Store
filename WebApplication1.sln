@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1.csproj", "{26BCFE8D-8A4A-4E79-B950-4940167A99A5}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database1", "Database1\Database1.sqlproj", "{BEB9DF2E-31B7-46A8-A63D-DC67CB73EE4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "Fake-Gem-Store\WebApplication1.csproj", "{26BCFE8D-8A4A-4E79-B950-4940167A99A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +13,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEB9DF2E-31B7-46A8-A63D-DC67CB73EE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB9DF2E-31B7-46A8-A63D-DC67CB73EE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB9DF2E-31B7-46A8-A63D-DC67CB73EE4B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BEB9DF2E-31B7-46A8-A63D-DC67CB73EE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB9DF2E-31B7-46A8-A63D-DC67CB73EE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB9DF2E-31B7-46A8-A63D-DC67CB73EE4B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{26BCFE8D-8A4A-4E79-B950-4940167A99A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{26BCFE8D-8A4A-4E79-B950-4940167A99A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26BCFE8D-8A4A-4E79-B950-4940167A99A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
